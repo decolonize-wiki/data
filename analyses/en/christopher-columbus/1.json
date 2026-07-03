@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "language": "en",
+  "article": {
+    "title": "Christopher Columbus",
+    "slug": "christopher-columbus",
+    "revisionId": 1361953165,
+    "fetchedAt": "2026-07-03T12:35:20.765Z",
+    "url": "https://en.wikipedia.org/wiki/Christopher_Columbus"
+  },
+  "methodologyVersion": "v0.1",
+  "sequence": 1,
+  "model": "claude-fable-5 (claude code session; parallel pass-1 analyst + pass-2 adversarial review subagents)",
+  "status": "published",
+  "summary": {
+    "paragraph": "A mature, heavily edited biography that is unusually careful on exactly the points this methodology tests: 'discovery' is almost always attributed, scare-quoted, or critiqued (a whole section dismantles the discovery myth), colonial violence is stated frankly with Columbus as agent (encomienda, slave raids, war on the Taíno), peoples are named, Indigenous place-names are given in parallel with the colonial ones, and the population-figure dispute is marked. One sentence survives both passes: the Legacy section's closing line, which recasts the destruction of Indigenous societies as populations 'largely replaced' by newcomers 'who brought with them new methods of farming, business, governance, and religious worship' — conquest, imposed rule, and forced conversion, all documented elsewhere in the same article, rendered as a benign transfer of methods.",
+    "flagCounts": {
+      "euphemism": 1
+    }
+  },
+  "flags": [
+    {
+      "id": "christopher-columbus-1-euphemism-1",
+      "categoryId": "euphemism",
+      "quote": "were largely replaced by Europeans and Africans, who brought with them new methods of farming, business, governance, and religious worship",
+      "anchorBefore": "the New World collapsed, and",
+      "anchorAfter": "Originality of discovery of America",
+      "explanation": "In the article's own voice, the destruction of Indigenous societies becomes populations that were 'replaced' by newcomers bringing 'new methods'. Imposed colonial rule becomes 'new methods of governance'; forced Christian conversion becomes 'new methods of religious worship'; the conquest and enslaved-labor economy become 'new methods of farming, business'. The article's own body contradicts this benign framing — it documents the encomienda enforcing Spanish control, slave raids, deaths in the mines, and conversion as a declared motive. The preceding sentence's mention of 'the negative effects of Columbus's conquests' describes a narrative about the events; this sentence then re-describes the events themselves as benign demographic turnover.",
+      "rewrite": "Exposed to Old World diseases and to the enslavement, forced labor, and killing inflicted by colonizers, the Indigenous populations of the New World were destroyed on a massive scale; European settlers moved in and enslaved Africans were trafficked across the Atlantic, while colonial rule and Christianity were imposed by force."
+    }
+  ],
+  "contextFacts": [
+    {
+      "fact": "Patrick Wolfe describes settler colonialism as a structure rather than an event, operating through an ongoing 'logic of elimination' of Indigenous peoples — the process a phrase like 'largely replaced' renders as neutral demographic change.",
+      "sourceId": "wolfe-2006"
+    },
+    {
+      "fact": "Roxanne Dunbar-Ortiz argues that narratives attributing Indigenous population loss essentially to disease function to absolve colonial policy of responsibility for the deliberate destruction of Indigenous nations.",
+      "sourceId": "dunbar-ortiz-2014"
+    }
+  ]
+}

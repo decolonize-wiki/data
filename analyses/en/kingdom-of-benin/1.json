@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "language": "en",
+  "article": {
+    "title": "Kingdom of Benin",
+    "slug": "kingdom-of-benin",
+    "revisionId": 1361711143,
+    "fetchedAt": "2026-07-03T12:35:23.883Z",
+    "url": "https://en.wikipedia.org/wiki/Kingdom_of_Benin"
+  },
+  "methodologyVersion": "v0.1",
+  "sequence": 1,
+  "model": "claude-fable-5 (claude code session; parallel pass-1 analyst + pass-2 adversarial review subagents)",
+  "status": "published",
+  "summary": {
+    "paragraph": "Zero flags — a rare, cleanly decolonized article. Pre-contact history gets section-length treatment through the kingdom's own eras (Igodomigodo, Ile-Ibinu, Ubini, Edo); the etymology is built on the Indigenous naming chain, with 'Benin' explicitly framed as a Portuguese corruption of an Indigenous term; the 1897 British conquest, sacking and looting are described directly ('captured Benin City', 'deliberately sought out and destroyed', 'war booty', 'looted'), with the British claim that the palace fire was accidental marked as a claim; and every European-source characterization — Burton's 'gratuitous barbarity', the human-sacrifice reports — is attributed and countered by named historians including the Edo historian Igbafe. Two labels are recorded for methodology triage under the delegitimizing-labels candidate pattern (no current category covers them): the heading 'The Massacre of 1897' for the killing of the British party while the reciprocal British destruction carries the neutral 'punitive expedition', and 'Juju', a pejorative colonial term for African religious practice, in the article's own voice.",
+    "flagCounts": {}
+  },
+  "flags": [],
+  "contextFacts": []
+}

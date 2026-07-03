@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "language": "en",
+  "article": {
+    "title": "South Africa",
+    "slug": "south-africa",
+    "revisionId": 1360952808,
+    "fetchedAt": "2026-07-03T12:35:22.843Z",
+    "url": "https://en.wikipedia.org/wiki/South_Africa"
+  },
+  "methodologyVersion": "v0.1",
+  "sequence": 1,
+  "model": "claude-fable-5 (claude code session; parallel pass-1 analyst + pass-2 adversarial review subagents)",
+  "status": "published",
+  "summary": {
+    "paragraph": "Zero flags. The article is well constructed by this methodology's standards: substantive Prehistory and Pre-colonial sections (Khoisan, Bantu expansion, Mapungubwe, the Venda kingdoms) precede European contact; colonial violence carries named actors — 'Dutch traders also brought thousands of enslaved people', 'intensified British subjugation of the indigenous peoples', British scorched-earth tactics and concentration camps named as such; African military agency is preserved (Sekhukhune defeating the Boers, the Zulu victory at Isandlwana); the Mfecane is partly attributed to European colonization rather than the Zulu-blame narrative; and the etymology already presents the parallel names Mzansi and Azania with their origins correctly stated. Two residual observations that no current category covers, recorded for methodology triage: the asymmetric labeling of Xhosa movement in their own historic frontier as 'raids' and 'incursions' while colonist movement is 'expansion', and the Anglo-Boer War passage's count of Boer concentration-camp deaths with no mention of the roughly 20,000 Black African camp deaths — an omission, which no quote-anchored category can flag.",
+    "flagCounts": {}
+  },
+  "flags": [],
+  "contextFacts": []
+}

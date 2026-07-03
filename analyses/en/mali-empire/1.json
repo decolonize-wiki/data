@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "language": "en",
+  "article": {
+    "title": "Mali Empire",
+    "slug": "mali-empire",
+    "revisionId": 1362024472,
+    "fetchedAt": "2026-07-03T12:35:21.753Z",
+    "url": "https://en.wikipedia.org/wiki/Mali_Empire"
+  },
+  "methodologyVersion": "v0.1",
+  "sequence": 1,
+  "model": "claude-fable-5 (claude code session; parallel pass-1 analyst + pass-2 adversarial review subagents)",
+  "status": "published",
+  "summary": {
+    "paragraph": "Zero flags — and that is the finding. This article on the pre-colonial Malian empire (c. 1235–1610) is a model of the practices the methodology tests for. Every external source is explicitly attributed and marked — Ibn Battuta, Ibn Khaldun, al-Umari, Leo Africanus — and Mandinka oral tradition and the griots are given co-equal standing, with disputes between the written and oral records openly narrated (the entire capital-location section holds Delafosse's colonial-era hypothesis up against oral history and 21st-century archaeology, tagged 'possibly erroneous'). Naming material is Indigenous, with locals' rejection of a European etymological hypothesis foregrounded. The article's treatment of sources is precisely what decolonial historiography asks encyclopedias to do.",
+    "flagCounts": {}
+  },
+  "flags": [],
+  "contextFacts": []
+}
