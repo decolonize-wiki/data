@@ -29,7 +29,11 @@
       "anchorBefore": "largest river system and",
       "anchorAfter": "Brazil has diverse wildlife",
       "explanation": "The lead calls the Amazon 'virgin' forest in the article's own voice. The Amazon basin is an inhabited region, and the article's own history section documents complex cultures there going back over 8,000 years (Santarém pottery, Marajoara mound building). 'Virgin' frames the region as untouched until outsiders arrived; the article itself uses the precise technical term, 'primary forest', in its Climate section.",
-      "rewrite": "most extensive old-growth tropical forest"
+      "rewrite": "most extensive old-growth tropical forest",
+      "strike": {
+        "term": "virgin",
+        "stamp": "old-growth"
+      }
     },
     {
       "id": "brazil-1-discovery-framing-2",
@@ -38,7 +42,11 @@
       "anchorBefore": "dates to the early 16th century,",
       "anchorAfter": "The Portuguese built architecture",
       "explanation": "Saying Brazil was 'first explored' by the Portuguese, without the qualifier 'first Europeans', treats the territory as unexplored before 1500. The article's own history section records at least 11,000 years of habitation; the peoples living there had explored and settled it long before the Portuguese arrived.",
-      "rewrite": "when the Portuguese reached, conquered and settled Brazil"
+      "rewrite": "when the Portuguese reached, conquered and settled Brazil",
+      "strike": {
+        "term": "first explored",
+        "stamp": "reached"
+      }
     },
     {
       "id": "brazil-1-agentless-passive-1",
@@ -56,7 +64,11 @@
       "anchorBefore": "Religious diversity in Brazil",
       "anchorAfter": "This confluence of faiths",
       "explanation": "'Meeting' ordinarily implies a voluntary, roughly symmetrical exchange. The sentence itself says one party was enslaved: catechization under Portuguese colonization was imposed, and African and Indigenous religious practice survived under and around an enforced Catholicism. The following sentence ('confluence of faiths') repeats the same softening rather than supplying a more precise description.",
-      "rewrite": "developed as enslaved African peoples and indigenous peoples sustained and adapted their religious traditions under the Catholicism imposed during Portuguese colonization"
+      "rewrite": "developed as enslaved African peoples and indigenous peoples sustained and adapted their religious traditions under the Catholicism imposed during Portuguese colonization",
+      "strike": {
+        "term": "meeting",
+        "stamp": "imposition"
+      }
     },
     {
       "id": "brazil-1-pre-contact-erasure-1",

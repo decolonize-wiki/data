@@ -26,7 +26,11 @@
       "anchorBefore": "colonization of the Congo Basin.",
       "anchorAfter": "and called it the Congo Free State",
       "explanation": "'Acquired rights' is the vocabulary of lawful commercial acquisition applied to a colonial seizure. What happened in 1884–85 was the European powers recognizing Leopold's claim among themselves at and around the Berlin Conference, supplemented by treaties with local chiefs that were coerced or fraudulent — no Congolese party granted title. Stating in the article's own voice that Leopold 'acquired rights' presents that allocation as if valid title existed to acquire, the core legal fiction of the Doctrine of Discovery. The lead's candor about the Free State's atrocities describes what followed, not the nature of the acquisition itself.",
-      "rewrite": "King Leopold II of Belgium secured European recognition of his claim to the Congo territory in 1885"
+      "rewrite": "King Leopold II of Belgium secured European recognition of his claim to the Congo territory in 1885",
+      "strike": {
+        "term": "acquired rights to",
+        "stamp": "claimed"
+      }
     }
   ],
   "contextFacts": [

@@ -27,7 +27,11 @@
       "anchorBefore": "coffee plantations, worked by",
       "anchorAfter": "and Saint-Domingue grew to become",
       "explanation": "'Imported' renders the trafficking of human beings in the vocabulary of lawful commodity trade, and the pattern recurs twice more in the same section ('renewed by newly imported Africans'; 'one-third of newly imported Africans died within a few years'). The traffickers are never named as actors in these sentences: the transatlantic act itself is described only in trade terms, though the surrounding text is candid about conditions inside the colony.",
-      "rewrite": "vast numbers of enslaved Africans trafficked to the colony by French slave traders"
+      "rewrite": "vast numbers of enslaved Africans trafficked to the colony by French slave traders",
+      "strike": {
+        "term": "imported",
+        "stamp": "trafficked"
+      }
     },
     {
       "id": "haiti-1-euphemism-2",
@@ -36,7 +40,11 @@
       "anchorBefore": "of Haiti's economy in 2020. Although",
       "anchorAfter": "by 1900 80% of Haiti's",
       "explanation": "The 150-million-franc payment France extorted in 1825 under threat of a fleet compensated former slaveholders for lost 'property'. 'Reparations' ordinarily denotes payment to repair a wrong one has suffered — the word casts France as the injured party. The inversion is sharpened by the article itself: the same passage calls the payment a 'payment', 'debt' and 'enforced payments', and a later section uses 'reparations for slavery' in its correct sense, for Haiti's 2013 demand that European governments repair the wrong done to Haiti.",
-      "rewrite": "the amount of the indemnity was reduced to $90 million in 1838"
+      "rewrite": "the amount of the indemnity was reduced to $90 million in 1838",
+      "strike": {
+        "term": "reparations",
+        "stamp": "indemnity"
+      }
     },
     {
       "id": "haiti-1-one-sided-sourcing-1",

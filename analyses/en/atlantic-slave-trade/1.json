@@ -28,7 +28,11 @@
       "anchorBefore": "inhabited continents. Any exploitation by",
       "anchorAfter": "needed a workforce, but the sparse",
       "explanation": "The article's own neutral voice calls Europeans 'the new discoverers of these lands' — in a sentence that itself calls the Americas inhabited. 'Discoverers' treats inhabited territory as nonexistent until Europeans saw it, erasing the peoples already there; the framing is not attributed to any period source.",
-      "rewrite": "the Europeans arriving in these already-inhabited lands"
+      "rewrite": "the Europeans arriving in these already-inhabited lands",
+      "strike": {
+        "term": "discoverers",
+        "stamp": "colonizers"
+      }
     },
     {
       "id": "atlantic-slave-trade-1-discovery-framing-2",
@@ -37,7 +41,11 @@
       "anchorBefore": "labor, profit, and religious motives.",
       "anchorAfter": "soon began to migrate to and",
       "explanation": "'Discovering new lands' is stated in the article's own voice about inhabited territory — the passage resolves to the Canary Islands, whose Guanche inhabitants the same paragraph describes being captured and enslaved. Land with people on it is not 'new'; the phrasing enacts the Doctrine-of-Discovery framing the trade itself depended on.",
-      "rewrite": "Upon reaching lands already home to Indigenous nations, European colonisers"
+      "rewrite": "Upon reaching lands already home to Indigenous nations, European colonisers",
+      "strike": {
+        "term": "discovering",
+        "stamp": "reaching"
+      }
     },
     {
       "id": "atlantic-slave-trade-1-euphemism-1",
@@ -46,7 +54,11 @@
       "anchorBefore": "shifted from Europe to the Americas.",
       "anchorAfter": "in the 16th century, often with",
       "explanation": "Enslaved people did not 'arrive'; they were forcibly transported. The intransitive verb removes both the coercion and the people responsible, rendering trafficking as travel. The pattern recurs through the article's regional sections — enslaved people 'reached' Hispaniola, Cuba 'received its first four slaves', Jamaica 'received its first shipment of 4,000 slaves' — this flag stands as representative of that recurring construction.",
-      "rewrite": "European colonizers first brought enslaved Africans to continental North America"
+      "rewrite": "European colonizers first brought enslaved Africans to continental North America",
+      "strike": {
+        "term": "arrived",
+        "stamp": "were brought"
+      }
     },
     {
       "id": "atlantic-slave-trade-1-agentless-passive-1",

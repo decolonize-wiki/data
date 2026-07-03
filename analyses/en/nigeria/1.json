@@ -26,7 +26,11 @@
       "anchorBefore": "gave them a logistical edge in",
       "anchorAfter": "and parts of the former Bornu",
       "explanation": "'Pacifying' softens military conquest into the restoration of calm. In the article's own voice it describes the British armed subjugation of the Sokoto Caliphate — a sovereign polity the British invaded, whose forces they defeated in battle, and whose caliphate Lugard then abolished. The paragraph's precise language ('victory in the Battle of Kano', 'Lugard abolished the caliphate') describes the fall of Sokoto city and its aftermath; the broader multi-battle subjugation of the heartland is named only through the euphemism.",
-      "rewrite": "In 1903, the British victory in the Battle of Kano gave them a logistical edge in subduing the heartland of the Sokoto Caliphate and parts of the former Bornu Empire by force."
+      "rewrite": "In 1903, the British victory in the Battle of Kano gave them a logistical edge in subduing the heartland of the Sokoto Caliphate and parts of the former Bornu Empire by force.",
+      "strike": {
+        "term": "pacifying",
+        "stamp": "subduing"
+      }
     }
   ],
   "contextFacts": []
