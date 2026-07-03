@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "language": "en",
+  "article": {
+    "title": "Haiti",
+    "slug": "haiti",
+    "revisionId": 1362218466,
+    "fetchedAt": "2026-07-03T10:53:47.164Z",
+    "url": "https://en.wikipedia.org/wiki/Haiti"
+  },
+  "methodologyVersion": "v0.1",
+  "sequence": 1,
+  "model": "claude-fable-5 (claude code session; pass 1 analyst + pass 2 adversarial review applied)",
+  "status": "published",
+  "summary": {
+    "paragraph": "This article is largely candid where colonial-era articles usually fail: it opens with a substantive Pre-Columbian section, Columbus 'landed' and 'claimed' rather than 'discovered', the Etymology section centers the restored Taíno name Ayiti alongside an African-origin theory, and the U.S. occupation and its corvée are described with named actors. The residual patterns are narrower. The Saint-Domingue section renders the trafficking of human beings in the vocabulary of lawful commodity trade — enslaved Africans are three times said to be 'imported', never trafficked by named French actors. The 1825 payment France extorted under naval threat, compensating former slaveholders, is once called 'the reparations' — inverting perpetrator and victim in a sentence, while the same article later uses 'reparations for slavery' in its correct sense for Haiti's 2013 demand of Europe. And the fate of La Navidad — known only from Spanish accounts — is stated in the article's own voice as unattributed fact, leaving the Taíno as unexplained aggressors.",
+    "flagCounts": {
+      "euphemism": 2,
+      "one-sided-sourcing": 1
+    }
+  },
+  "flags": [
+    {
+      "id": "haiti-1-euphemism-1",
+      "categoryId": "euphemism",
+      "quote": "vast numbers of those enslaved imported from Africa",
+      "anchorBefore": "coffee plantations, worked by",
+      "anchorAfter": "and Saint-Domingue grew to become",
+      "explanation": "'Imported' renders the trafficking of human beings in the vocabulary of lawful commodity trade, and the pattern recurs twice more in the same section ('renewed by newly imported Africans'; 'one-third of newly imported Africans died within a few years'). The traffickers are never named as actors in these sentences: the transatlantic act itself is described only in trade terms, though the surrounding text is candid about conditions inside the colony.",
+      "rewrite": "vast numbers of enslaved Africans trafficked to the colony by French slave traders"
+    },
+    {
+      "id": "haiti-1-euphemism-2",
+      "categoryId": "euphemism",
+      "quote": "the amount of the reparations was reduced to $90 million in 1838",
+      "anchorBefore": "of Haiti's economy in 2020. Although",
+      "anchorAfter": "by 1900 80% of Haiti's",
+      "explanation": "The 150-million-franc payment France extorted in 1825 under threat of a fleet compensated former slaveholders for lost 'property'. 'Reparations' ordinarily denotes payment to repair a wrong one has suffered — the word casts France as the injured party. The inversion is sharpened by the article itself: the same passage calls the payment a 'payment', 'debt' and 'enforced payments', and a later section uses 'reparations for slavery' in its correct sense, for Haiti's 2013 demand that European governments repair the wrong done to Haiti.",
+      "rewrite": "the amount of the indemnity was reduced to $90 million in 1838"
+    },
+    {
+      "id": "haiti-1-one-sided-sourcing-1",
+      "categoryId": "one-sided-sourcing",
+      "quote": "Relations with the native peoples were initially good; however the settlers were later killed by the Taíno.",
+      "anchorBefore": "founded the settlement of La Navidad.",
+      "anchorAfter": "The sailors carried endemic Eurasian",
+      "explanation": "The only records of La Navidad's fate are Spanish accounts (Columbus, Chanca, Peter Martyr); no Taíno record exists. Yet the characterization is stated in the article's own voice as unattributed fact, with no motive or context — the Taíno appear as unexplained aggressors. The methodology requires the source's position to be marked where a claim about a colonized people's behavior rests solely on colonizer records and the article does not acknowledge the limitation.",
+      "rewrite": "According to the surviving Spanish accounts — the only record of the settlement's fate — relations with the Taíno were initially good, but the settlers were later killed."
+    }
+  ],
+  "contextFacts": [
+    {
+      "fact": "C.L.R. James's The Black Jacobins documents that Saint-Domingue's wealth rested on the continuous trafficking of enslaved Africans by French slavers, with mortality so high that the enslaved population was sustained only by constant new arrivals from Africa.",
+      "sourceId": "james-1938"
+    },
+    {
+      "fact": "Michel-Rolph Trouillot, a Haitian historian, shows in Silencing the Past that archives produced by colonizers systematically silence colonized actors, and describes the Haitian Revolution as having entered Western historiography as 'unthinkable'.",
+      "sourceId": "trouillot-1995"
+    }
+  ],
+  "namingNote": {
+    "text": "Haiti is itself a restored Indigenous name — a rarity among post-colonial states. Ayiti, 'land of high mountains', was the Taíno name for the whole island of Hispaniola; Jean-Jacques Dessalines restored it in 1804 as the official name of independent Saint-Domingue, as the article's etymology section records, 'as a tribute to the Amerindian predecessors'. The article also records an African-origin theory (Fon Ayiti-Tomè, 'from nowadays this land is our land') and the Creole names Ayiti-Toma, Ayiti-Cheri, Tè-Desalin and Lakay.",
+    "attestation": "Ayiti is attested in the Taíno language as a name for the island of Hispaniola ('land of high mountains') and is in living official use as the country's name since Dessalines restored it on 1 January 1804; the article's own etymology section records both the Taíno attestation and the Fon-language theory."
+  }
+}
