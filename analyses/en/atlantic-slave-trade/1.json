@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "language": "en",
+  "article": {
+    "title": "Atlantic slave trade",
+    "slug": "atlantic-slave-trade",
+    "revisionId": 1362275444,
+    "fetchedAt": "2026-07-03T12:11:36.794Z",
+    "url": "https://en.wikipedia.org/wiki/Atlantic_slave_trade"
+  },
+  "methodologyVersion": "v0.1",
+  "sequence": 1,
+  "model": "claude-fable-5 (claude code session; parallel pass-1 analyst + pass-2 adversarial review subagents)",
+  "status": "published",
+  "summary": {
+    "paragraph": "The article is long, detailed, and unusually balanced: it devotes substantial sections to pre-existing African societies, African participation in and resistance to the trade, and the coerced, violent nature of the traffic, and it usually names its actors. The surviving patterns cluster in three places. Twice the article's own voice calls Europeans 'discoverers' of lands it acknowledges in the same breath were inhabited. The trafficking of people is repeatedly rendered in the intransitive vocabulary of travel — enslaved Africans 'arrived', islands 'received' their 'first shipment' — as if no one carried them. And the 1619 landing at Point Comfort is written in the passive with the traffickers deleted, though the carriers (English privateers) are historically established.",
+    "flagCounts": {
+      "discovery-framing": 2,
+      "euphemism": 1,
+      "agentless-passive": 1
+    }
+  },
+  "flags": [
+    {
+      "id": "atlantic-slave-trade-1-discovery-framing-1",
+      "categoryId": "discovery-framing",
+      "quote": "the new discoverers of these lands",
+      "anchorBefore": "inhabited continents. Any exploitation by",
+      "anchorAfter": "needed a workforce, but the sparse",
+      "explanation": "The article's own neutral voice calls Europeans 'the new discoverers of these lands' — in a sentence that itself calls the Americas inhabited. 'Discoverers' treats inhabited territory as nonexistent until Europeans saw it, erasing the peoples already there; the framing is not attributed to any period source.",
+      "rewrite": "the Europeans arriving in these already-inhabited lands"
+    },
+    {
+      "id": "atlantic-slave-trade-1-discovery-framing-2",
+      "categoryId": "discovery-framing",
+      "quote": "Upon discovering new lands, European colonisers",
+      "anchorBefore": "labor, profit, and religious motives.",
+      "anchorAfter": "soon began to migrate to and",
+      "explanation": "'Discovering new lands' is stated in the article's own voice about inhabited territory — the passage resolves to the Canary Islands, whose Guanche inhabitants the same paragraph describes being captured and enslaved. Land with people on it is not 'new'; the phrasing enacts the Doctrine-of-Discovery framing the trade itself depended on.",
+      "rewrite": "Upon reaching lands already home to Indigenous nations, European colonisers"
+    },
+    {
+      "id": "atlantic-slave-trade-1-euphemism-1",
+      "categoryId": "euphemism",
+      "quote": "The first enslaved Africans arrived in continental North America",
+      "anchorBefore": "shifted from Europe to the Americas.",
+      "anchorAfter": "in the 16th century, often with",
+      "explanation": "Enslaved people did not 'arrive'; they were forcibly transported. The intransitive verb removes both the coercion and the people responsible, rendering trafficking as travel. The pattern recurs through the article's regional sections — enslaved people 'reached' Hispaniola, Cuba 'received its first four slaves', Jamaica 'received its first shipment of 4,000 slaves' — this flag stands as representative of that recurring construction.",
+      "rewrite": "European colonizers first brought enslaved Africans to continental North America"
+    },
+    {
+      "id": "atlantic-slave-trade-1-agentless-passive-1",
+      "categoryId": "agentless-passive",
+      "quote": "Africans were brought to Point Comfort",
+      "anchorBefore": "saw an increase in shipments.",
+      "anchorAfter": "– several miles downriver from the",
+      "explanation": "A passive construction for a documented trafficking event with the actor deleted: neither this sentence nor its surrounding context names who brought the captives. The carriers are historically established — the English privateer White Lion (with the Treasurer), which had seized the captives from a Portuguese slave ship in 1619.",
+      "rewrite": "English privateers brought captured Africans to Point Comfort"
+    }
+  ],
+  "contextFacts": [
+    {
+      "fact": "The Americas were home to millions of Indigenous people organized in hundreds of distinct nations before Europeans arrived.",
+      "sourceId": "dunbar-ortiz-2014"
+    },
+    {
+      "fact": "The SlaveVoyages Trans-Atlantic Slave Trade Database estimates that about 12.5 million Africans were forced onto transatlantic slave ships by European and American traders.",
+      "sourceId": "slavevoyages"
+    }
+  ]
+}

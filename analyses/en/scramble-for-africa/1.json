@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "language": "en",
+  "article": {
+    "title": "Scramble for Africa",
+    "slug": "scramble-for-africa",
+    "revisionId": 1362056199,
+    "fetchedAt": "2026-07-03T12:11:37.782Z",
+    "url": "https://en.wikipedia.org/wiki/Scramble_for_Africa"
+  },
+  "methodologyVersion": "v0.1",
+  "sequence": 1,
+  "model": "claude-fable-5 (claude code session; parallel pass-1 analyst + pass-2 adversarial review subagents)",
+  "status": "published",
+  "summary": {
+    "paragraph": "The article's declared scope is the European invasion, conquest and partition of Africa, and it is on the whole unusually direct — the first sentence calls the Scramble 'invasion, conquest, and colonisation', the Herero and Nama killings are named as a genocide with Germany as actor, and Leopold's 'terror regime' is called that. Three patterns survive. The Portuguese conquest of Guinea, Angola and Mozambique is repeatedly rendered in the article's own voice as 'pacification' — territory 'pacified' in 1892, 'fully pacified' by 1902, 'not be fully pacified until 1920'. Vasco da Gama is said to have 'discovered the sea route to India', a route whose Indian Ocean leg had been sailed for centuries by Swahili, Arab and Gujarati navigators. And the 120,000 deaths in the construction of the Suez Canal are attributed to malnutrition, fatigue and disease with the established cover condition — the conscripted Egyptian corvée — omitted.",
+    "flagCounts": {
+      "euphemism": 1,
+      "discovery-framing": 1,
+      "agentless-passive": 1
+    }
+  },
+  "flags": [
+    {
+      "id": "scramble-for-africa-1-euphemism-1",
+      "categoryId": "euphemism",
+      "quote": "About half of the territory was pacified in 1892",
+      "anchorBefore": "Franco-Portuguese Convention of 1886.",
+      "anchorAfter": ", and by that point all Muslim kinglets",
+      "explanation": "'Pacified' describes the armed Portuguese conquest and suppression of the peoples of Guinea as the restoration of calm — a term implying peace and legality rather than military subjugation. The section heading 'Campaigns of Pacification and Occupation' is a historiographical label, but the body repeats 'pacified'/'pacification' bare, as asserted fact, in the article's own voice, across Guinea, Angola ('fully pacified by 1902'), and Mozambique ('not be fully pacified until 1920') — while the same paragraphs describe conquest, annexation and military campaigns. This flag stands as representative of that recurring in-voice usage.",
+      "rewrite": "Portuguese forces had brought about half of the territory under their control by 1892"
+    },
+    {
+      "id": "scramble-for-africa-1-discovery-framing-1",
+      "categoryId": "discovery-framing",
+      "quote": "he discovered the sea route to India",
+      "anchorBefore": "region that now corresponds to Mozambique when",
+      "anchorAfter": ". Portugal built several establishments around",
+      "explanation": "The article states in its own neutral voice that Vasco da Gama 'discovered the sea route to India'. The Indian Ocean leg of that route had been navigated for centuries by Swahili, Arab and Gujarati sailors — da Gama's achievement was connecting the Atlantic passage around the Cape to routes that already existed, and he was guided along them. Calling a European the discoverer of a route known to existing peoples, without the qualifier 'first European', is the discovery-framing pattern.",
+      "rewrite": "he became the first European to reach India by sea, linking the Atlantic to the Indian Ocean routes long sailed by Swahili, Arab and Gujarati navigators"
+    },
+    {
+      "id": "scramble-for-africa-1-agentless-passive-1",
+      "categoryId": "agentless-passive",
+      "quote": "120,000 workers died over the ten years of construction from malnutrition, fatigue, and disease",
+      "anchorBefore": "but others estimate that",
+      "anchorAfter": ", especially cholera.",
+      "explanation": "The deaths are attributed to ambient causes — malnutrition, fatigue, disease — while the established cover condition is omitted: the workforce was the Egyptian corvée, state-conscripted forced labour supplied for the canal works under the concessions granted to de Lesseps. The methodology treats disease deaths as flaggable precisely where forced-labour conditions are historically established and left out; presenting conscripted labourers simply as 'workers' who died of disease deletes the coercion that put them there.",
+      "rewrite": "others estimate that 120,000 of the Egyptian corvée labourers conscripted for the works died over the ten years of construction from malnutrition, fatigue, and disease, especially cholera"
+    }
+  ],
+  "contextFacts": []
+}

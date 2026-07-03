@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "language": "en",
+  "article": {
+    "title": "Jamaica",
+    "slug": "jamaica",
+    "revisionId": 1360431811,
+    "fetchedAt": "2026-07-03T12:11:38.698Z",
+    "url": "https://en.wikipedia.org/wiki/Jamaica"
+  },
+  "methodologyVersion": "v0.1",
+  "sequence": 1,
+  "model": "claude-fable-5 (claude code session; parallel pass-1 analyst + pass-2 adversarial review subagents)",
+  "status": "published",
+  "summary": {
+    "paragraph": "The article handles most decolonial risk points well: the lead and History sections name the Spanish and British as agents of enslavement and conquest, the Etymology section attests the Indigenous names Xaymaca and Yamaye — the modern name Jamaica is itself an anglicization of the Taíno name — Columbus is qualified as 'the first European to see Jamaica', and a detailed Prehistory section with a dedicated linked article forecloses pre-contact erasure. The single surviving flag is an agentless passive: the forced deportation of the Trelawny Town Maroons after the Second Maroon War is written with the responsible actor deleted — the Maroons 'were expelled', but the sentence never says the British colonial government expelled them, in breach of the surrender terms, and the previous sentence's mention of the British describes a different event in which the Maroons were their allies.",
+    "flagCounts": {
+      "agentless-passive": 1
+    }
+  },
+  "flags": [
+    {
+      "id": "jamaica-1-agentless-passive-1",
+      "categoryId": "agentless-passive",
+      "quote": "many Maroons from the Maroon town of Cudjoe's Town (Trelawny Town) were expelled to Nova Scotia and, later, Sierra Leone",
+      "anchorBefore": "the second conflict in 1795–96,",
+      "anchorAfter": "By the beginning of the",
+      "explanation": "The forced deportation of the Trelawny Town Maroons after the Second Maroon War is written in the passive with the actor deleted: the Maroons 'were expelled', but the sentence never says who expelled them. The deportation was carried out by the British colonial government of Jamaica, in defiance of the surrender terms. The nearest mention of 'the British' — the preceding sentence — describes a different event 35 years earlier in which the Maroons fought as British allies, so the passive also hides that the colonial power turned on and deported its former allies.",
+      "rewrite": "After the second conflict in 1795–96, the British colonial authorities deported many Maroons from the Maroon town of Cudjoe's Town (Trelawny Town) to Nova Scotia and, later, Sierra Leone."
+    }
+  ],
+  "contextFacts": []
+}

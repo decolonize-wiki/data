@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "language": "en",
+  "article": {
+    "title": "Nigeria",
+    "slug": "nigeria",
+    "revisionId": 1361632460,
+    "fetchedAt": "2026-07-03T12:11:39.593Z",
+    "url": "https://en.wikipedia.org/wiki/Nigeria"
+  },
+  "methodologyVersion": "v0.1",
+  "sequence": 1,
+  "model": "claude-fable-5 (claude code session; parallel pass-1 analyst + pass-2 adversarial review subagents)",
+  "status": "published",
+  "summary": {
+    "paragraph": "The article's pre-colonial coverage is notably strong — the Nok culture, the Hausa Kingdoms, the Kingdom of Nri, Ile-Ife and Oyo, Benin, and the Sokoto Caliphate all receive real treatment — and the British conquest is mostly written in plain, active voice ('subjugating', 'conquered', 'defeated'), with the colonial coinage of the name 'Nigeria' disclosed honestly (Flora Shaw is named, and the Tuareg origin of 'Niger' is separately attested). The one surviving pattern is the description of the British armed subjugation of the Sokoto Caliphate — a sovereign polity that was invaded, defeated in battle, and abolished — as 'pacifying' its heartland: the archetypal euphemism, in the article's own voice.",
+    "flagCounts": {
+      "euphemism": 1
+    }
+  },
+  "flags": [
+    {
+      "id": "nigeria-1-euphemism-1",
+      "categoryId": "euphemism",
+      "quote": "pacifying the heartland of the Sokoto Caliphate",
+      "anchorBefore": "gave them a logistical edge in",
+      "anchorAfter": "and parts of the former Bornu",
+      "explanation": "'Pacifying' softens military conquest into the restoration of calm. In the article's own voice it describes the British armed subjugation of the Sokoto Caliphate — a sovereign polity the British invaded, whose forces they defeated in battle, and whose caliphate Lugard then abolished. The paragraph's precise language ('victory in the Battle of Kano', 'Lugard abolished the caliphate') describes the fall of Sokoto city and its aftermath; the broader multi-battle subjugation of the heartland is named only through the euphemism.",
+      "rewrite": "In 1903, the British victory in the Battle of Kano gave them a logistical edge in subduing the heartland of the Sokoto Caliphate and parts of the former Bornu Empire by force."
+    }
+  ],
+  "contextFacts": []
+}
