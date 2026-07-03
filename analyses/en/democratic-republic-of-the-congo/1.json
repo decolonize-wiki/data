@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "language": "en",
+  "article": {
+    "title": "Democratic Republic of the Congo",
+    "slug": "democratic-republic-of-the-congo",
+    "revisionId": 1362332106,
+    "fetchedAt": "2026-07-03T11:38:34.569Z",
+    "url": "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo"
+  },
+  "methodologyVersion": "v0.1",
+  "sequence": 1,
+  "model": "claude-fable-5 (claude code session; pass 1 analyst + pass 2 adversarial review applied)",
+  "status": "published",
+  "summary": {
+    "paragraph": "This article is unusually candid about the colonial period. The lead names the actors ('These kingdoms were broken up by Europeans'), the Congo Free State section states plainly that Leopold II used forced labour and that violence, disease and exploitation caused catastrophic population loss, and the Belgian Congo section names continued forced labour, racial segregation and economic exploitation. Indigenous toponyms are given first ('Pool Malebo (Stanley Pool)'), the etymology centers the Kongo-language origin of both 'Congo' and 'Zaire', and the compressed pre-colonial section points prominently to a dedicated Early Congolese history article. One pattern remains, and it sits in the first paragraph most readers see: the lead states that Leopold 'acquired rights to the Congo territory in 1885' — the vocabulary of lawful acquisition for an allocation made among European powers, in which no Congolese party granted anything.",
+    "flagCounts": {
+      "euphemism": 1
+    }
+  },
+  "flags": [
+    {
+      "id": "democratic-republic-of-the-congo-1-euphemism-1",
+      "categoryId": "euphemism",
+      "quote": "King Leopold II of Belgium acquired rights to the Congo territory in 1885",
+      "anchorBefore": "colonization of the Congo Basin.",
+      "anchorAfter": "and called it the Congo Free State",
+      "explanation": "'Acquired rights' is the vocabulary of lawful commercial acquisition applied to a colonial seizure. What happened in 1884–85 was the European powers recognizing Leopold's claim among themselves at and around the Berlin Conference, supplemented by treaties with local chiefs that were coerced or fraudulent — no Congolese party granted title. Stating in the article's own voice that Leopold 'acquired rights' presents that allocation as if valid title existed to acquire, the core legal fiction of the Doctrine of Discovery. The lead's candor about the Free State's atrocities describes what followed, not the nature of the acquisition itself.",
+      "rewrite": "King Leopold II of Belgium secured European recognition of his claim to the Congo territory in 1885"
+    }
+  ],
+  "contextFacts": [
+    {
+      "fact": "Walter Rodney documents how colonial economies in Africa were structured to export raw materials to Europe while blocking local industrialization — a pattern he traces across Belgian, British and French colonies, and one the article's own economics section still reflects (minerals and metal were 80% of DRC exports in 2023).",
+      "sourceId": "rodney-1972"
+    },
+    {
+      "fact": "Kwame Nkrumah analyzed the Congo as a defining case of neo-colonialism: formal independence in 1960 while foreign mining capital — notably the Belgian-controlled interests behind Katanga's copper — continued to shape the country's economy and politics, including the Katanga secession.",
+      "sourceId": "nkrumah-1965"
+    }
+  ],
+  "namingNote": {
+    "text": "Both of the country's historical names are Kongo-language words. 'Congo' derives from the Kingdom of Kongo, whose name early European sailors took for the river in the 16th century; the article records the proposed root konga, 'to gather'. 'Zaire' is a Portuguese adaptation of the Kikongo nzadi (from nzadi o nzere, 'river swallowing rivers'), the river's own name in the language of the people living at its mouth. The article also records Mobutu's 1966 renaming of the colonial cities — Léopoldville to Kinshasa, Stanleyville to Kisangani, Elisabethville to Lubumbashi — replacing names that commemorated the colonizers with African ones.",
+    "attestation": "Kongo is attested as the name of the Kingdom of Kongo and its people in the Kongo language (Kikongo); nzadi is attested Kikongo for 'river', adapted by the Portuguese as Zaire and used for the river in the 16th–17th centuries. Both attestations are recorded in the article's own etymology section. These are names associated with the river and the western kingdom, not pre-colonial names for the whole present-day territory, which held many polities and languages."
+  }
+}
